@@ -1,0 +1,41 @@
+---
+title: "Qloudy MqSunny"
+format: dashboard
+theme: darkly
+---
+
+# Boston
+
+## Row {height=30%}
+
+`r format(Sys.time(), "%A, %B %e at %R", tz = "America/New_York")`
+
+## Row {height=50%}
+
+### Column
+
+Here is the forecast
+
+
+### Column {.column}
+
+more goes here
+
+## Row {height=20%}
+
+footer
+
+# Raleigh
+
+## Row {height=30%}
+
+This is Raleigh
+
+## Row {height=50%}
+
+
+Raleigh Forecast
+
+## Row {height=20%}
+
+footer
